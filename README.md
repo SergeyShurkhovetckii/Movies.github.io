@@ -1,7 +1,7 @@
 ## Project Movies 🖥
 
-<p>The layout of the home page of the online movie theater </p>
-<hr>
+<p>The layout of the home page of the online movie theater </p> <br>
+<p>The project is a test project under testing </p>
 <p> Technology is used in the project </p> 
 
 ⤵️⤵️⤵️
@@ -16,12 +16,12 @@
 
 ### Live Preview 🌀 
 
-<a href='https://sergeyshurkhovetckii.github.io/Movies.github.io'>Template-live</a>
+<a href='https://sergeyshurkhovetckii.github.io/Movies.github.io'>Template-live<a>
 
 
 
 
-### My contacts 📞
+### My contacts
 
 <a href="https://t.me/S_Yhappy">![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)</a>
 
