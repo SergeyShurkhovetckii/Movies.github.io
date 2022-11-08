@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movies </title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.min.css">
+<!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.min.jsdelivr.net/npm/swiper@8/swiper-bundle.min.min.css"/>
+</head>
+
+<body>
+    <div class="panel">
+    <div class="panel-wrapper">
+        <div class="panel-row">
+            <!-- icon panel left -->
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-search"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-ticket"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-folder"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-favorite"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-book"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-tv"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-user"></span> 
+                </a>
+            </div>
+            <div class="panel-row__item">
+                <a href="#">
+                    <span class="icon icon-out"></span> 
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="bg">
+        <div class="container">
+            <section class="header-scroll">
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <div class="header-logo--pic">
+                        <img src="img/Logo.svg" alt="logo">
+                    </div>
+                    <div class="header-logo--title">TVimo</div>
+                </div>
+                <div class="header-info">
+                    <div class="header-info__subtract">
+                        <a href="#">
+                            <span class="icon icon-fire"></span> 
+                        </a>
+                    </div>
+                    <div class="header-info__notices">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.9296 3.31481C12.4384 3.16471 11.918 3.08423 11.3804 3.08423C8.68089 3.08423 6.41304 5.11404 6.11493 7.79707L5.87613 9.94628C5.75363 11.0488 5.39476 12.112 4.82402 13.0632L4.27583 13.9769C3.8205 14.7357 3.59283 15.1152 3.61347 15.4274C3.63356 15.7313 3.79108 16.0095 4.04136 16.1831C4.29843 16.3614 4.74093 16.3614 5.62594 16.3614H17.1349C18.0199 16.3614 18.4624 16.3614 18.7195 16.1831C18.9698 16.0095 19.1273 15.7313 19.1474 15.4274C19.168 15.1152 18.9404 14.7357 18.485 13.9769L18.485 13.9768L17.9368 13.0632C17.5196 12.3678 17.2156 11.6126 17.0344 10.8259C14.3467 10.8065 12.1739 8.62164 12.1739 5.92934C12.1739 4.96796 12.451 4.07129 12.9296 3.31481ZM15.4338 4.97037C15.2686 5.25174 15.1739 5.57948 15.1739 5.92934C15.1739 6.83009 15.8018 7.58419 16.6437 7.77784C16.521 6.70828 16.0851 5.74328 15.4338 4.97037Z"
+                                fill="white" />
+                            <path
+                                d="M8.53531 16.3614C8.53531 16.735 8.6089 17.105 8.75188 17.4502C8.89486 17.7954 9.10443 18.109 9.36862 18.3732C9.63281 18.6374 9.94646 18.847 10.2916 18.9899C10.6368 19.1329 11.0068 19.2065 11.3804 19.2065C11.754 19.2065 12.124 19.1329 12.4692 18.9899C12.8144 18.847 13.128 18.6374 13.3922 18.3732C13.6564 18.109 13.866 17.7954 14.009 17.4502C14.1519 17.105 14.2255 16.735 14.2255 16.3614L11.3804 16.3614H8.53531Z"
+                                fill="white" />
+                            <path
+                                d="M17.0707 8.32607C18.3943 8.32607 19.4674 7.25301 19.4674 5.92933C19.4674 4.60565 18.3943 3.53259 17.0707 3.53259C15.747 3.53259 14.6739 4.60565 14.6739 5.92933C14.6739 7.25301 15.747 8.32607 17.0707 8.32607Z"
+                                fill="#FFC30D" stroke="#FFC30D" />
+                        </svg>
+                    </div>
+                    <div class="header-info-control">
+                        <div class="header-info-control__avatar">
+                            <img src="img/user.svg" alt="user"></div>
+                            <!-- Control box -->
+                        <div class="control-box">
+                            <div class="control-box__name">Kinoman #294</div>
+                            <!-- Status box  -->
+                            <div class="status">
+                                <div class="status__logo"><svg width="13" height="14" viewBox="0 0 13 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.02844 1.69855H8.50109C10.2499 1.69855 11.4209 2.92582 11.4209 4.75202V8.96673C11.4209 10.7883 10.2499 12.0161 8.50109 12.0161H4.02844C2.27962 12.0161 1.10342 10.7883 1.10342 8.96673V4.75202C1.10342 2.92582 2.27962 1.69855 4.02844 1.69855ZM8.10902 8.8228C8.23799 8.8228 8.36696 8.75573 8.43918 8.63192C8.55268 8.45085 8.49077 8.21355 8.30506 8.10057L6.46854 7.00691V4.62305C6.46854 4.41206 6.2983 4.23614 6.08163 4.23614C5.87012 4.23614 5.69472 4.41206 5.69472 4.62305V7.22874C5.69472 7.36287 5.76694 7.49184 5.8856 7.5589L7.90783 8.76605C7.96974 8.80732 8.04196 8.8228 8.10902 8.8228Z"
+                                            fill="#FFC30D" />
+                                    </svg>
+                                </div>
+                                <div class="status__status">Активно</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bureger mob menu  -->
+                <svg class="burger" width="32" height="32" viewBox="0 0 32 32" fill=" " xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_507_279)">
+        <path
+            d="M28 10H4C3.73478 10 3.48043 9.89464 3.29289 9.70711C3.10536 9.51957 3 9.26522 3 9C3 8.73478 3.10536 8.48043 3.29289 8.29289C3.48043 8.10536 3.73478 8 4 8H28C28.2652 8 28.5196 8.10536 28.7071 8.29289C28.8946 8.48043 29 8.73478 29 9C29 9.26522 28.8946 9.51957 28.7071 9.70711C28.5196 9.89464 28.2652 10 28 10Z"
+            fill=" " />
+        <path
+            d="M28 17H4C3.73478 17 3.48043 16.8946 3.29289 16.7071C3.10536 16.5196 3 16.2652 3 16C3 15.7348 3.10536 15.4804 3.29289 15.2929C3.48043 15.1054 3.73478 15 4 15H28C28.2652 15 28.5196 15.1054 28.7071 15.2929C28.8946 15.4804 29 15.7348 29 16C29 16.2652 28.8946 16.5196 28.7071 16.7071C28.5196 16.8946 28.2652 17 28 17Z"
+            fill=" " />
+        <path
+            d="M28 24H4C3.73478 24 3.48043 23.8946 3.29289 23.7071C3.10536 23.5196 3 23.2652 3 23C3 22.7348 3.10536 22.4804 3.29289 22.2929C3.48043 22.1054 3.73478 22 4 22H28C28.2652 22 28.5196 22.1054 28.7071 22.2929C28.8946 22.4804 29 22.7348 29 23C29 23.2652 28.8946 23.5196 28.7071 23.7071C28.5196 23.8946 28.2652 24 28 24Z"
+            fill=" " />
+    </g>
+    <defs>
+        <clipPath id="clip0_507_279">
+            <rect width="32" height="32" fill="white" />
+        </clipPath>
+    </defs>
+</svg>
+            </div>
+        </div>
+    </div>
+</section>
+            <section>
+    <div class="conteiner">
+        <div class="wrapper">
+            <div class="main">
+               <div class="main-about">
+    <h3 class="main-about__title title__h2 title ">Фильм</h3>
+    <h2 class="main-about__name title__h3 title">Дюна / dune ( 2021)</h2>
+    <div class="main-about__part">Dune: Part One</div>
+    <div class="main-about__text">
+        <p>Атрейдесы прибывают на планету, где им никто не рад. Тимоти Шаламе в фантастическом эпосе
+            Дени Вильнёва</p>
+    </div>
+    <div class="main-about-reiting">
+        <div class="reiting-box">
+           <p class="reiting-box__text">КП<span class="reiting-box__span">7.7</span></p>
+        </div>
+        <div class="reiting-box">
+            <p class="reiting-box__text">IMDB:<span class="reiting-box__span"> 8.2</span></p>
+         </div>
+         <div class="reiting-box">
+            <p class="reiting-box__text">pg:<span class="reiting-box__span">16 + </span></p>
+         </div>
+         <div class="reiting-box">
+            <p class="reiting-box__text">Время:<span class="reiting-box__span">02:35</span></p>
+         </div>
+    </div>
+    <div class="main-subscribe">
+        <div class="main-subscribe__btn btn btn__subscribe">По подписке TVimo</div>
+    </div>
+</div>
+
+
+                <div class="main-prev">
+                
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+        </div>
+    </div>
+            <section>
+    <div class="conteiner">
+        <div class="wrapper">
+            <div class="novelties">
+                <div class="novelties-title title__h4">Новинки</div>
+                <div class="novelties-grid">
+                    <div class="card-novelties ">
+    <img class="card-image" src="img/Cards-News/1.jpg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/2.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/3.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/4.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/5.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/6.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/7.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/8.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/9.jpeg" alt="pic">
+</div>
+<div class=" card-novelties ">
+    <img class="card-image" src="img/Cards-News/10.jpeg" alt="pic">
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="sliders">
+    <div class="conteiner">
+        <div class="wrapper">
+            <div class="movies mg__30">
+                <div class="movies-title title__h4">Сериалы</div>
+                <div class="novelties-row">
+                    <!-- Swiper  -->
+                    <div class="swiper series">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img//Slider Series/1.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Series/2.jpeg"
+                                        alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Series/3.jpeg"
+                                        alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Series/4.png"
+                                        alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Series/5.jpeg"
+                                        alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Series/6.jpeg"
+                                        alt="movies"></a></div>
+                            <div class="swiper-slide swiper-last-item">
+                                <div class="slide-control">
+                                    <div class="slider-btn"><span class="icon-slider__btn"></span></div>
+                                    <p>Показать все</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-series">
+            <div class=" arrow-next"></div>
+        </div>
+        <div class="prev-series">
+            <div class="arrow-prev"></div>
+        </div>
+</section>
+            <section class="sliders">
+    <div class="conteiner">
+        <div class="wrapper">
+            <div class="movies mg__30">
+                <div class="movies-title title__h4">Фильмы</div>
+                <div class="novelties-row">
+                    <!-- Swiper  -->
+                    <div class="swiper movies">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href=""><img class="slider-img"
+                                        src="img/Slider Films/1.jpg" alt="movies"></a>
+                            </div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Films/2.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Films/3.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Films/4.png"  alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Films/5.png"  alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img" src="img/Slider Films/6.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide swiper-last-item">
+                                <div class="slide-control">
+                                    <div class="slider-btn"><span class="icon-slider__btn"></span></div>
+                                    <p>Показать все</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next">
+            <div class=" arrow-next"></div>  
+        </div>
+        <div class="prev">
+            <div class="arrow-prev"></div>  
+        </div>
+</section>
+            <section class="sliders">
+    <div class="conteiner">
+        <div class="wrapper">
+            <div class="cartoons mg__30">
+                <div class="cartoons-title title__h4">Мультфильмы</div>
+                <div class="novelties-row">
+                    <!-- Swiper  -->
+                    <div class="swiper cartoons">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#"><img class="slider-img"
+                                        src="img/Slider cartoons/1.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img"
+                                        src="img/Slider cartoons/2.png" alt="movies"></a></div>
+                            <div class="swiper-slide"></a><img class="slider-img"
+                                    src="img/Slider cartoons/3.png" alt="movies"></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img"
+                                        src="img/Slider cartoons/4.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img"
+                                        src="img/Slider cartoons/5.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide"><a href="#"><img class="slider-img"
+                                        src="img/Slider cartoons/6.jpeg" alt="movies"></a></div>
+                            <div class="swiper-slide swiper-last-item">
+                                <div class="slide-control">
+                                    <div class="slider-btn"><span class="icon-slider__btn"></span></div>
+                                    <p>Показать все</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-cartoons">
+            <div class=" arrow-next"></div>
+        </div>
+        <div class="prev-cartoons">
+            <div class="arrow-prev"></div>
+        </div>
+</section>
+           
+        
+    </div>
+    <section>
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-wrapper">
+                        <div class="footer-row">
+                            <div class="footer__logo">
+                                <img src="img/Logo.svg" alt="logo">
+                                <div class="header-logo--title">TVimo</div>
+                            </div>
+                            <div class="copyright">
+                                © 2022, Tvimo, может содержать информацию, не предназначенную для несовершеннолетних
+                            </div>
+                            <ul class="footer__info">
+                                <li><a class="footer-link" href="">Задать вопрос</a></li>
+                                <li><a class="footer-link" href="">Справка</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+      <!-- Swiper JS -->
+      <script src="https://cdn.min.jsdelivr.net/npm/swiper@8/swiper-bundle.min.min.js"></script>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
