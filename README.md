@@ -1,6 +1,6 @@
 ## Project Movies 🖥
 
-<p>The layout of the home page of the online movie theater </p> <br>
+<p>The layout of the home page of the online movie theater </p>
 <p>The project is a test project under testing </p>
 <p> Technology is used in the project </p> 
 
