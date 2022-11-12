@@ -1,4 +1,9 @@
 ## Project Movies 🖥
+https://img.shields.io/github/issues/SergeyShurkhovetckii/Movies.github.io
+GitHub forks:	GitHub forks badge	https://img.shields.io/github/forks/SergeyShurkhovetckii/Movies.github.io
+GitHub stars:	GitHub stars badge	https://img.shields.io/github/stars/SergeyShurkhovetckii/Movies.github.io
+GitHub license:	GitHub license badge	https://img.shields.io/github/license/SergeyShurkhovetckii/Movies.github.io
+Twitter:	Twitter badge	https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FSergeyShurkhovetckii%2FMovies.github.io
 
 <p>The layout of the home page of the online movie theater </p>
 <p>The project is a test project under testing </p>
